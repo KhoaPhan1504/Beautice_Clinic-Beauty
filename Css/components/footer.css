@@ -1,0 +1,139 @@
+.Footer{
+	width: 100%;
+
+}
+.footer_wrapper{
+	position: relative;
+	display: flex;
+	max-width: 1540px;
+	margin: auto;
+	background-image: url("../../access/icon_home1/Footer BG 2.png");
+	background-repeat: no-repeat;	
+	min-height: 706px;
+	background-size: cover;
+	z-index: 0;
+	
+}
+.footer_wrapper::after{
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	z-index: -1;
+	width: 100%;
+	min-height: 506px;
+	background-color: var(--color-bgr-footer);
+
+}
+.footer_container-fluid{
+	width: 100%;
+	min-height: 706px;
+	background-image: url("../../access/icon_home1/Footer BG 1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.footer_container{
+	margin: auto;
+	margin-top: 250px;
+	width: 80%;
+	padding: 0px 20px;	
+}
+
+
+
+.footer_info-describes{
+	margin-top: 40px;
+	margin-left: 20px;
+	color: var(--color-border-text);
+	font-size: 16px;
+	letter-spacing: 0.1em;
+	font-weight: 300px;
+}
+.footer_info-describe{
+	font-size: 17px;
+
+}
+.footer_info-contact{
+	margin-top: 5px;
+}
+.footer_info-enail{
+	margin-left: 30px;
+	text-decoration: underline;
+}
+.footer_col{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin-bottom: 50px;
+}
+.footer_more{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	color: var(--color-border-text);
+	font-size: 17px;
+	letter-spacing: 0.1em;
+
+}
+.footer_more-children{
+	width: 50%;
+
+}
+.footer_more-children ul{
+	margin-top: 40px;
+}
+.footer_more-children ul li{
+	font-size: 15px;
+	margin: 10px 0px;
+	transition: .5s;
+	cursor: pointer;
+}
+.footer_more-children ul li:hover{
+	transform: translateX(10px);
+	color: var(--color-text-hover);
+}
+.footer_group-icon{
+	margin-bottom: 20px;
+}
+
+
+.footer_bottom{
+	margin-top: 50px;
+}
+.footer_internet{
+	width: 86%;
+	margin: auto;
+	display: flex;
+	justify-content: left;
+}
+
+.icon{
+	
+	margin: 0px 20px;
+	
+	cursor: pointer;
+}
+.icon img{
+	transition: .5s;
+}
+.icon:hover img{
+	transform: translateY(-3px) scale(1.1);
+}
+
+.footer_certification{
+	color: var(--color-border-text);
+	font-size: 15px;
+	letter-spacing: 0.1em;
+}
+
+
+
+.footer_scroll{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	bottom: 180px;
+	right: 50px;
+	cursor: pointer;
+	
+}

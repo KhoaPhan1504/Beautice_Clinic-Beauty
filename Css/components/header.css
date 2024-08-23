@@ -91,6 +91,14 @@
 	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.Header_more {
+	width: 481px;
+	height: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .Header_menu{
 	position: absolute;
 	top: 20px;
@@ -100,16 +108,22 @@
 
 }
 
+.Header_menu-children {
+	display: flex;
+	gap: 9px;
+	margin: 0;
+	padding: 0;
+}
+
 .Header_menu-children li{
 	float: left;
 	
 	
 }
 .Header_menu-children a{
-	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 2.2px;
 	color: var(--color-text-default);
@@ -128,10 +142,14 @@
 
 .Header_contact{
 	position: absolute;
-	top: 50%;
-	right: 0px;
+	top: 20px;
+    left: 985px;
 	transform: translateY(-50%);
 	
+}
+.Header_contact .contact-btn{
+	width: 158px;
+	height: 52px;
 }
 .Header_icon{
 	width: 30px;

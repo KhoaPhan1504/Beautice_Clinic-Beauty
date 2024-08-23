@@ -1,77 +1,81 @@
-.Slider{
-	position: absolute;
-	left: 50%;
-	min-height: 900px;
+.Slider {
+	height: 743px;
 	width: 100%;
-	transform: translateX(-50%);
 }
 
-.Slider__wrapper{
+.slider_wrapper {
 	position: relative;
 	display: flex;
-	flex-direction: column;
 	align-items: center;
-	max-width: 1540px;
+	max-width: 1440px;
 	margin: auto;
-	padding-top: 200px;
+	padding-top: 187px;
 	height: 100%;
-	background-image: url("../../access/icon_home1/Slide_Background.png");
+	background-image: url("/assets/icon_home1/Slide_Background.png");
 	background-repeat: no-repeat;
-	
-
-}
-.Slider__main{
-	display: flex;
-	height: 100%;
 }
 
-.Slider__main-left{
+.slider_main-left {
 	display: flex;
 	justify-content:center;
 	align-items: center;
 	flex-direction: column;
-	height: 500px;
+	height: 100%;
 	width: 50%;
-	padding: 20px;
-	
-	
-}
-.Slider__main-chirdren{
-	width: 400px;
-}
-.Slider__main-title{
-	
-	color: var(--color-text-title);
-}
-.Slider__main-describe{
-	color: var(--color-text-title);
-}
-.Slider__main-btn{
-	margin-top: 30px;
 }
 
-.Slider__main-right{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 500px;
-	width: 50%;
-	padding: 20px;
-	
-	
-	
+.slider_main-child {
+	padding-left: 134px;
+	padding-bottom: 29px;
 }
 
-.Slider__button{
+.slider_main-title {
+	line-height: 60px;
+	width: 430px;
+	height: 128px;
+	color: var(--color-text-title);
+}
+
+.slider_main-description {
+	line-height: 24px;
+	letter-spacing: 1.6px;
+	width: 474px;
+	height: 54px;
+	color: var(--color-text-title);
+}
+
+.slider-btn {
+	padding-top: 27px;
+}
+
+.slider_main-btn {
+	width: 200px;
+	height: 58.36px;
+	margin-left: 1px;
+}
+
+.slider_main-right {
+	width: 601.5px;
+	height: 397.5px;
+}
+
+.slider_main-right svg {
+	position: absolute;
+    top: 261px;
+    left: 685px;
+}
+
+.Slider_button{
 	position: relative;
 	width: 25.31px;
 	height: 8.15px;
-	margin-top: 20px;
+	top: 44px;
+    left: 707.84px;
 	border-radius: 50px;
 	background-color: var(--color-text-title);
 	cursor: pointer;
 }
-.Slider__button::after{
+.Slider_button::after{
 	content: "";
 	position: absolute;
 	top: 50%;
@@ -83,7 +87,7 @@
 	background-color: var(--color-text-default);
 }
 
-.Slider__button::before{
+.Slider_button::before{
 	content: "";
 	position: absolute;
 	top: 50%;
@@ -98,14 +102,14 @@
 
 
 @media (max-width: 740px){
-	.Slider__main-chirdren{
+	.slider_main{
 		width: 100%;
 		text-align: center;
 	}
-	.Slider__main-right{
+	.slider_main-right{
 		height: 100%;
 	}
-	.Slider__main-describe{
+	.slider_main-description{
 		text-align: center;
 	}
 }

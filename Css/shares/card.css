@@ -2,83 +2,104 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	max-width: 363px;
-	margin: auto;
+	flex-direction: column;
+	margin-top: 74px;
 	background-color: var(--color-white);
 	box-shadow: 0px 25px 50px 25px var(--color-box-shadow);
 	border-radius: 42px;
 	transition: .5s;
 	cursor: pointer;
-
-
 }
-.Card:hover{
-	transform: translateY(-3px);
-}
-.Card__wrapper{
+
+.card_wrapper{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
-	width: 350px;
-	padding: 50px 20px;
-	min-height: 530px;
+	width: 343px;	
+	height: 458px;
 	
 }
-.Card__image{
-	height: 146px;
+
+.card_item {
+    display: flex;	
+	flex-direction: column;
+    align-items: center;
+	margin-top: 4px;
+	height: 100%;
 }
 
-.Card__image img{
+/* .Card:hover{
+	transform: translateY(-3px);
+} */
+
+
+.card_image{
+	height: 50%;
+	width: 100%;
+	padding-top: 51px;	
+}
+
+.card_image svg{
 	height: 100%;
 	border-radius: 50%;
 }
-.Card__info{
+.card_info{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 20px;
+	margin-top: 48px;
 	text-align: center;
 }
-.Card__info-title{
-	color: var(--color-text-hover);
-
-}
-.Card__info-name{
-	margin: 5px 0px 10px 0px;
+.card_info_name {
+	margin-bottom: 4px;
 	color: var(--color-text-title);
+	line-height: 22.5px;
+	text-align: center;
+	width: 263px;
+    height: 37px;
+	margin-top: 3px;
 }
-.Card__info-describe{
+.card_info_description {
 	text-align: center;
 	color: var(--color-text-default);
-	font-size: 13px;
-	letter-spacing: 0.2em;
-
+	letter-spacing: 1.4px;
+	width: 274px;
+	height: 80px;
+	line-height: 21px;
+	margin-top: 3px;
 }
-.Card__contact{
+
+.card_contact{
 	margin-top: 50px;
 
 }
-.Card__contact a{
-
+.card_contact a{
 	width: 49px;
 	height: 49px;
 	border-radius: 50%;
 	margin: 0px 10px;
 	box-shadow: -2px 6px 16px -1px var(--color-box-shadow);
 }
-.Card__contact a img{
+.card_contact a img{
 	border-radius: 50%;
 	width: 49px;
 	height: 49px;
 	transform: scale(1.5);
 }
 
+.small {
+	margin-top: 59px;
+}
+
+.large {
+	margin: 0 40px;
+}
+
 @media (max-width: 740px){
 	.Card{
 		max-width: 300px;
 	}
-	.Card__info-describe{
+	.card_info-describe{
 		text-align: center;
 	}
 }

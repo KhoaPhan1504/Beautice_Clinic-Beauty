@@ -38,11 +38,11 @@ body{
     
 }
 
-
 a{
 	text-decoration: none;
 	color: var(--color-text-default);
 }
+
 a:hover{
 	text-decoration: none;
 }
@@ -53,18 +53,54 @@ button {
     outline: none;
     
 }
+
 ul {
     padding: 0;
     list-style: none;
 }
-
 
 a.active{
 	color: var(--color-text-title) !important;
 	font-weight: 700 !important;
    
 }
+
 a.active:hover{
 	color: var(--color-text-hover) !important;
+}
+
+.fw-400 {
+	font-weight: 400;
+}
+.fw-500 {
+	font-weight: 500;
+}
+
+.fw-600 {
+	font-weight: 600;
+}
+
+.fs-48 {
+	font-size: 48px;
+}
+
+.fs-36 {
+	font-size: 36px;
+}
+
+.fs-24 {
+	font-size: 24px;
+}
+
+.fs-18 {
+	font-size: 18px;
+}
+
+.fs-16 {
+	font-size: 16px;
+}
+
+.fs-14 {
+	font-size: 14px;
 }
 

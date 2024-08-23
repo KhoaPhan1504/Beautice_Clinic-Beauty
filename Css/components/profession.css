@@ -1,0 +1,132 @@
+.Profession{
+	width: 100%;
+	height: 861px;
+	margin-left: 3px;
+	transform: translateY(-356px);
+}
+
+.profession_wrapper{
+	position: relative;
+	left: 50%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;	
+	max-width: 1140px;
+	transform: translateX(-50%);
+	height: 100%;
+}
+
+.title_desc_profession{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 848px;
+	height: 148px;
+	padding: 0px 20px;
+	animation: moveToptoBottom .5s linear;
+}
+.info_pro_tip{
+	color: var(--color-pink);
+	line-height: 20px;
+	width: 160px;
+	height: 20px;
+	padding-top: 3px;
+}
+.info_pro_title{
+	width: 732px;
+	height: 53px;
+	margin: 15px 0px;
+	text-align: center;
+	line-height: 45px;
+	color: var(--color-text-title);
+
+}
+.info_pro_description{
+	width: 848px;
+	height: 51px;
+	text-align: center;
+	color: var(--color-text-default);
+	letter-spacing: 1.6px;
+	line-height: 24px;
+}
+
+.profession_item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 20px 0px;
+}
+.profession_item_wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.profession_item_row{
+	min-height: 400px;
+	padding: 10px;
+	
+}
+.profession_item_row .Card{
+	width: 424px;
+	margin-top: 59px;
+}
+
+.card_professional {
+	max-width: 424px;
+	min-width: 270px;
+	height: 626px;
+}
+
+.card_wrapper_pro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;	
+}
+
+.card_image_pro {
+	width: 146px;
+	height: 146px;
+	margin-top: 91px;
+}
+
+.card_info_pro {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	margin-top: 54px;
+}
+
+.card_info-title {
+	width: 117px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: var(--color-pink);
+}
+
+.card_info-name {
+	width: 263px;
+	height: 37px;
+	line-height: 22.5px;
+	text-align:  center;
+	color: var(--color-text-title);
+	margin-top: 14px;
+}
+
+.card_info-description {
+	width: 270px;
+	height: 63px;
+	line-height: 21px;
+	letter-spacing: 1.4px;
+	text-align:  center;
+	color: var(--color-text-default);
+	margin-top: 6px;
+}
+
+.card_contact_pro {
+	margin-top: 41px;
+    margin-right: 4px;
+}
