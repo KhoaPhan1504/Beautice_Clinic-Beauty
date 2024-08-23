@@ -28,9 +28,9 @@
 	height: 100%;
 }
 
-/* .Card:hover{
+.Card:hover{
 	transform: translateY(-3px);
-} */
+}
 
 
 .card_image{
