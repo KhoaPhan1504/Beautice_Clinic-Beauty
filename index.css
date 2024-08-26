@@ -1,6 +1,5 @@
 
 :root{
-	/*--color-pink : #FF64AE;*/
 	--color-pink : #FF64AE;
 	--color-white: #fff;
 	--color-text-default: #8B8B8B;
@@ -26,6 +25,7 @@
 }
 body{
 	overflow-x: hidden;
+    min-height: 100vh;
 }
 ::-webkit-scrollbar {
     width: 5px;
