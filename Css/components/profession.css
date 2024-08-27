@@ -61,6 +61,7 @@
 .profession_item_wrap {
 	display: flex;
 	justify-content: space-between;
+	padding: 0 18px;
 }
 
 .profession_item_row{
