@@ -14,14 +14,14 @@
 }
 
 .col-6{
-	flex: 0 0 50%;
+	/* flex: 0 0 50%; */
     max-width: 50%;
 }
 
-.col-12 {
+/* .col-12 {
     flex: 0 0 100%;
     max-width: 100%;
-}
+} */
 
 @media (max-width: 740px){
 	
@@ -48,20 +48,7 @@
 		top: 7600px;
 	}
 }
-@media (min-width: 1113px){
-	
-    .l-0 {
-        display: none;
-    }
-    .l-4 {
-        flex: 0 0 33.33333%;
-        max-width: 33.33333%;
-    }
-    .l-6 {
-        flex: 0 0 50%;
-        max-width: 50%;
-    } 
-}
+
 
 @media (min-width: 741px) and (max-width: 1112px){
 	

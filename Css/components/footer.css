@@ -40,10 +40,6 @@
 	margin-top: 225px;
     padding-left: 150px;
 }
-.row {
-    display: flex;
-    width: 100%;
-}
 
 .footer_col {
 	display: flex;

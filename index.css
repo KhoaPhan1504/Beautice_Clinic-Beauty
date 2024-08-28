@@ -29,6 +29,8 @@
 	--color-text-input: #C5C5C5;
 	--color-bgr-footer: #0D165C;
 	--color-box-header: #80808070;
+	--color-slider-btn: #EEEEEE;
+	--color-slider-btn-active: #414880;
 }
 
 * {
@@ -137,16 +139,24 @@ img, video {
 	height: auto;
 }
 
-@media (min-width: 768px) {
-	.container {
-	  max-width: 750px;
+@media (max-width: 1024px) {
+	body {
+		width: 100%;
+		height: auto;
+	}
+	.Container {
+	  width: 100%;
 	  margin: 0 auto;
 	}
 }
   
- @media (min-width: 1024px) {
-	.container {
-	  max-width: 980px;
-	  margin: 0 auto;
+ @media (max-width: 768px) {
+	body {
+		width: 100%;
+		height: auto;
+	}
+	.Container {
+		width: 100%;
+	  	margin: 0 auto;
 	}
  }

@@ -21,11 +21,11 @@
 	align-items: center;
 	flex-direction: column;
 	height: 100%;
-	width: 50%;
+	width: 700px;
 }
 
 .slider_main-child {
-	padding-left: 134px;
+	padding-left: 189px;
 	padding-bottom: 29px;
 }
 
@@ -55,61 +55,66 @@
 }
 
 .slider_main-right {
-	width: 601.5px;
-	height: 397.5px;
+	width: 100%;
+	height: 100%;
+	padding: 73px 0 0 23px;
 }
 
 .slider_main-right svg {
-	position: absolute;
-    top: 261px;
-    left: 685px;
+	max-width: 100%;
+	max-height: 100%;
 }
 
-.Slider_button{
-	position: relative;
+.slider_button_group{
+	display: flex;
+	justify-content: center;
+	margin-top: 54px;
+    margin-left: 6px;
+}
+
+.slider_button {
+	width: 14.82px;
+	height: 3.09px;
+	background-color: var(--color-slider-btn);
+	border-radius: 50px;
+}
+
+.slider_button_active {
 	width: 25.31px;
 	height: 8.15px;
-	top: 44px;
-    left: 707.84px;
-	border-radius: 50px;
-	background-color: var(--color-text-title);
-	cursor: pointer;
-}
-.Slider_button::after{
-	content: "";
-	position: absolute;
-	top: 50%;
-	left: 0px;
-	transform: translate(-150%,-50%);
-	width: 14.82px;
-	height: 3.09px;
-	border-radius: 50px;
-	background-color: var(--color-text-default);
+	background-color: var(--color-slider-btn-active);
+	margin: 0 9px;
 }
 
-.Slider_button::before{
-	content: "";
-	position: absolute;
-	top: 50%;
-	right: 0px;
-	transform: translate(150%,-50%);
-	width: 14.82px;
-	height: 3.09px;
-	border-radius: 50px;
-	background-color: var(--color-text-default);
-}
+@media (max-width: 1023px){
+	.Slider {
+		height: auto;
+	}
 
-
-
-@media (max-width: 740px){
-	.slider_main{
+	.slider_wrapper {
+		height: auto;
 		width: 100%;
-		text-align: center;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
+
+	.slider_main-left{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.slider_main-child {
+		padding: 0;
+	}
+
 	.slider_main-right{
-		height: 100%;
+		width: 100%;
+		height: auto;
+		display: flex;
+		justify-content: center;
+		margin-top: 20px;
 	}
-	.slider_main-description{
-		text-align: center;
-	}
+
 }

@@ -101,11 +101,9 @@
 
 .Header_menu{
 	position: absolute;
-	top: 20px;
+	top: 8px;
     left: 436px;
 	display: block;
-	transform: translateY(-50%);
-
 }
 
 .Header_menu-children {
