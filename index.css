@@ -1,3 +1,21 @@
+/* Components */
+@import url('./Css/components/header.css');
+@import url("./Css/components/slider.css");
+@import url("./Css/components/core.css");
+@import url("./Css/components/about.css");
+@import url("./Css/components/profession.css");
+@import url("./Css/components/contact.css");
+@import url("./Css/components/footer.css");
+
+/* Shares */
+@import url("./Css/shares/button.css");
+@import url("./Css/shares/card.css");
+@import url("./Css/shares/textbox.css");
+
+/* Utils */
+@import url("./Css/util/animation.css");
+@import url("./Css/util/reponsive.css");
+
 
 :root{
 	--color-pink : #FF64AE;
@@ -13,13 +31,13 @@
 	--color-box-header: #80808070;
 }
 
-*{
+* {
 	box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-    -webkit-user-select: none; /* Safari */
-	-ms-user-select: none; /* IE 10 and IE 11 */
+    -webkit-user-select: none;
+	-ms-user-select: none;
 	user-select: none;
 
 }
@@ -107,3 +125,28 @@ a.active:hover{
 	font-size: 14px;
 }
 
+.container {
+	width: 80%;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+img, video {
+	max-width: 100%;
+	height: auto;
+}
+
+@media (min-width: 768px) {
+	.container {
+	  max-width: 750px;
+	  margin: 0 auto;
+	}
+}
+  
+ @media (min-width: 1024px) {
+	.container {
+	  max-width: 980px;
+	  margin: 0 auto;
+	}
+ }

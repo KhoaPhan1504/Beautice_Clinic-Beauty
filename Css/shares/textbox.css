@@ -18,7 +18,7 @@
 	line-height: 24px;
 	border: 1px solid var(--color-border-text);
 	border-radius: 15px;
-	padding: 26px 23px;
+	padding-left: 23px;
 	background: var(--color-white);
 	color: var(--color-text-input);
 	letter-spacing: 1.6px;
@@ -37,6 +37,7 @@ textarea {
 	resize: none;
 	text-align: left;
 	height: 239.47px;
+	padding-top: 26px;
 }
 
 textarea:focus-visible{

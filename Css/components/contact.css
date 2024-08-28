@@ -103,3 +103,53 @@
 .contact_name-last{
 	float: right;
 }
+
+@media (max-width: 740px){
+
+	.contact_image{
+		width: 100%;
+	}
+	.contact_info-des{
+		align-items: center;
+	}
+	.info_title{
+		text-align: center !important;
+	}
+	.contact_rowname{
+		margin: 0px !important;
+	}
+	.contact_input{
+		width: 100%;
+	}
+	.contact_col-input{
+		margin-top: 35px;
+		justify-content: center;
+	}
+	.contact_name{
+		width: 100%;
+	}
+	.contact_right{
+		width: 80%;
+		margin: auto;
+	}
+	.contact_rowname{
+		width: 100%;
+	}
+}
+
+@media (min-width: 740px) and (max-width: 1112px){
+	
+	.contact_info-des{
+		align-items: center;
+	}
+	.contact_col{
+		margin: auto;
+	}
+	.contact_rowname{
+		width: 520px;
+	}
+	.contact_name-last{
+		float: right;
+	}
+
+}

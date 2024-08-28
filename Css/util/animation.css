@@ -1,5 +1,5 @@
 
-.activee{
+.active{
 	animation: moveBottomtoTop .5s linear;
 }
 
@@ -69,7 +69,7 @@
 		opacity: 1;
 	}
 }
-@keyframes activee{
+@keyframes active{
 	from{
 		opacity: 0;
 	}
