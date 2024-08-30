@@ -21,9 +21,9 @@
 }
 
 .card_item {
-    display: flex;	
+  display: flex;	
 	flex-direction: column;
-    align-items: center;
+  align-items: center;
 	margin-top: 4px;
 	height: 100%;
 }
@@ -86,15 +86,6 @@
 	height: 49px;
 	transform: scale(1.5);
 }
-
-.small {
-	margin-top: 59px;
-}
-
-.large {
-	margin: 0 40px;
-}
-
 @media (max-width: 740px){
 	.Card{
 		max-width: 300px;

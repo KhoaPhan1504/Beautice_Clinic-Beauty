@@ -4,7 +4,6 @@
 }
 
 .contact_wrapper {
-    position: relative;
 	display: flex;
 	align-items: center;
 	max-width: 1440px;
@@ -137,7 +136,7 @@
 	}
 }
 
-@media (min-width: 740px) and (max-width: 1112px){
+@media (min-width: 740px) and (max-width: 1164px){
 	
 	.contact_info-des{
 		align-items: center;

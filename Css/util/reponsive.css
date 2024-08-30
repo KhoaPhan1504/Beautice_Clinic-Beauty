@@ -32,40 +32,11 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .Core{
-		top: 1200px;
-	}
-	.About{
-		top: 3000px;
-	}
-	.Profession{
-		top: 4100px;
-	}
-	.Contact{
-		top: 5800px;
-	}
-	.Footer{
-		top: 7600px;
-	}
 }
 
 
 @media (min-width: 741px) and (max-width: 1112px){
 	
-    .Core{
-		top: 1300px;
-	}
-	.About{
-		top: 3100px;
-	}
-	.Profession{
-		top: 4300px;
-	}
-	.Contact{
-		top: 6100px;
-	}
-	.Footer{
-		top: 7900px;
-	}
+    
 }
 
