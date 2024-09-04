@@ -3,7 +3,7 @@
 	max-width: 1140px;
 	height: 732px;
 	border-radius: 42px;
-	margin-top: 194px;
+	margin-top: 193px;
 	margin-left: 150px;
 	text-align: center;
 }
@@ -61,6 +61,12 @@
 .core_item_card {
 	width: 343px;
 	height: 458px;
+	transition: all 0.7s ease;
+}
+
+.core_item_card:hover {
+	transform: translateY(10px);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .core_col{

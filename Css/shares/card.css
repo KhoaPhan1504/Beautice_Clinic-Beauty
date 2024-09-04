@@ -28,11 +28,6 @@
 	height: 100%;
 }
 
-.Card:hover{
-	transform: translateY(-3px);
-}
-
-
 .card_image{
 	height: 50%;
 	width: 100%;

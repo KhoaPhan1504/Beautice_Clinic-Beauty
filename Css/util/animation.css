@@ -22,12 +22,6 @@
 	animation: moveBottomtoTop .5s linear;
 }
 
-
-
-
-
-
-
 @keyframes moveToptoBottom{
 	from{
 		transform: translateY(-50px);

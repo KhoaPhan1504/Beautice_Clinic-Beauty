@@ -1,22 +1,29 @@
 // Hover Item Profession
-const items = document.querySelectorAll('.profession_item_row');
-
-items.forEach(item => {
-  item.addEventListener('mouseover', () => {
-    item.classList.add('Card');
-    
-    items.forEach(otherItem => {
-      if (otherItem !== item) {
-        otherItem.classList.add('not-hovered');
-      }
-    });
+document.querySelectorAll('.profession_item_row').forEach(item => {
+  item.addEventListener('mouseenter', () => {
+      document.querySelectorAll('.profession_item_row').forEach(i => {
+          i.classList.remove('Card');
+          i.classList.add('not-hovered');
+          if (i !== item) {
+              i.style.backgroundColor = 'transparent';
+          }
+      });
+      item.classList.add('Card');
+      item.classList.remove('not-hovered');
+      item.style.backgroundColor = getCSSVariable('--color-white'); 
   });
 
-  item.addEventListener('mouseout', () => {
-    item.classList.remove('Card');
-    
-    items.forEach(otherItem => {
-      otherItem.classList.remove('not-hovered');
-    });
+  item.addEventListener('mouseleave', () => {
+      document.querySelectorAll('.profession_item_row').forEach(i => {
+          i.classList.remove('Card');
+          i.classList.remove('not-hovered');
+          i.style.width = "calc((1085px - 40px) / 3)";
+          i.style.backgroundColor = getCSSVariable('--color-white');
+      });
   });
 });
+
+function getCSSVariable(variableName) {
+  return getComputedStyle(document.documentElement).getPropertyValue(variableName).trim();
+}
+
