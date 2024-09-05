@@ -1,10 +1,7 @@
 .Profession{
-	width: 1085px;
+	width: 100%;
 	height: 861px;
-	display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 178px;
+	margin-left: 3px;
 	transform: translateY(-356px);
 }
 
@@ -54,61 +51,44 @@
 	line-height: 24px;
 }
 
-.small {
-	margin-top: 178px;
-}
-
-.large {
-	margin-top: 180px;
-}
-
 .profession_item{
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
-	width: 1085px;
-	margin: 0 auto;
-	height: 626px;
+	width: 100%;
+	margin-top: 89px;
 }
+
 .profession_item_wrap {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	width: 100%;
+	transition: all 0.9s ease;
 }
 
 .profession_item_row{
 	flex: 1;
-	height: 100%;
 	min-height: 400px;
-	width: calc((1085px - 40px) / 3);
 	transition: all 0.9s ease;
-  background-color: transparent;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.profession_item_row:nth-child(2) {
-	background-color: var(--color-white);
-}
-
-.profession_item_row:hover {
-	cursor: pointer;
-}
-
-.profession_item_row.element.large {
-	background-color: var(--color-white);
+	background: var(--color-transparent);
 }
 
 .profession_item_row.not-hovered {
 	transform: translateX(20px);
-	opacity: 0.8;
-	width: calc((1085px - 424px - 40px) / 2);
+	opacity: 0.4;
+}
+
+.proffession_card_left {
+	margin-left: 33px;
+}
+
+.proffession_card_right {
+	margin-right: 35px;
 }
 
 .profession_item_row.Card{
 	width: 424px;
 	height: 626px;
-	margin-top: 60px;
+	margin-top: 3px;
 	transform: translateY(-3px);
 	background-color: var(--color-white);
 }
@@ -120,8 +100,7 @@
 }
 
 .card_professional {
-	max-width: 424px;
-	min-width: 270px;
+	width: 424px;
 	height: 626px;
 }
 
@@ -174,32 +153,59 @@
 
 .card_contact_pro {
 	margin-top: 41px;
-    margin-right: 4px;
+  margin-right: 4px;
 }
 
-@media screen and (max-width: 1164px) {
-	.profession_item_wrap {
+@media (min-width: 1023px) and (max-width: 1299px){
+	.Profession {
+		height: auto;
+		margin: 50px 0 0 0;
+		padding: 20px;
+	}
+
+	.profession_wrapper {
+		height: auto;
+		width: 100%;
 		flex-direction: column;
+		justify-content: center;
 		align-items: center;
 	}
 
-	.profession_item_row {
+	.title_desc_profession {
 		width: 100%;
-		max-width: 424px;
+		display: flex;
+		justify-content: center;
 	}
-}
 
-@media screen and (max-width: 768px) {
 	.profession_item_wrap {
-		padding: 0;
+		flex-direction: column;
 	}
 
-	.profession_item_row {
-		margin-bottom: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1022px) {
+	.Profession {
+		height: auto;
+		margin: 50px 0 0 0;
+		padding: 20px;
 	}
 
-	.card_professional {
+	.profession_wrapper {
+		height: auto;
 		width: 100%;
-		max-width: 424px; 
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.title_desc_profession {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.profession_item_wrap {
+		flex-direction: column;
 	}
 }
+

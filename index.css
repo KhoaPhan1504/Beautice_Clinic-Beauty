@@ -13,13 +13,13 @@
 @import url("./Css/shares/textbox.css");
 
 /* Utils */
-@import url("./Css/util/animation.css");
+/* @import url("./Css/util/animation.css"); */
 @import url("./Css/util/reponsive.css");
 
 
 :root{
 	--color-pink : #FF64AE;
-	--color-white: #fff;
+	--color-white: #FFFFFF;
 	--color-text-default: #8B8B8B;
 	--color-text-title:#091156;
 	--color-text-hover:#FF64AE;
@@ -71,10 +71,12 @@ a:hover{
 }
 
 input,
-button {
-    border: none;
-    outline: none;
-    
+button
+textarea {
+  border: none;
+	outline: none;
+	color: #091156;
+	caret-color:#FF64AE;
 }
 
 ul {
