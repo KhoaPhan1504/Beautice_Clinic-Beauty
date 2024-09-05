@@ -1,4 +1,4 @@
-.Card{
+.Card {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -11,13 +11,12 @@
 	cursor: pointer;
 }
 
-.card_wrapper{
+.card_wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 343px;	
 	height: 458px;
-	
 }
 
 .card_item {
@@ -28,23 +27,25 @@
 	height: 100%;
 }
 
-.card_image{
+.card_image {
 	height: 50%;
 	width: 100%;
 	padding-top: 51px;	
 }
 
-.card_image svg{
+.card_image svg {
 	height: 100%;
 	border-radius: 50%;
 }
-.card_info{
+
+.card_info {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-top: 48px;
 	text-align: center;
 }
+
 .card_info_name {
 	margin-bottom: 4px;
 	color: var(--color-text-title);
@@ -54,6 +55,7 @@
     height: 37px;
 	margin-top: 3px;
 }
+
 .card_info_description {
 	text-align: center;
 	color: var(--color-text-default);
@@ -64,24 +66,26 @@
 	margin-top: 3px;
 }
 
-.card_contact{
+.card_contact {
 	margin-top: 50px;
-
 }
-.card_contact a{
+
+.card_contact a {
 	width: 49px;
 	height: 49px;
 	border-radius: 50%;
 	margin: 0px 10px;
 	box-shadow: -2px 6px 16px -1px var(--color-box-shadow);
 }
-.card_contact a img{
+
+.card_contact a img {
 	border-radius: 50%;
 	width: 49px;
 	height: 49px;
 	transform: scale(1.5);
 }
-@media (max-width: 740px){
+
+@media (max-width: 740px) {
 	.Card{
 		max-width: 300px;
 	}
@@ -89,6 +93,7 @@
 		text-align: center;
 	}
 }
+
 @media (min-width: 740px) and (max-width: 1112px){
 	.Card{
 		max-width: 500px;

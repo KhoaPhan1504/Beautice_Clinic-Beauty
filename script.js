@@ -13,9 +13,9 @@ document.querySelectorAll('.profession_item_row').forEach((item, index, arr) => 
       item.style.backgroundColor = getCSSVariable('--color-white'); 
 
       if(index === 0) {
-        item.classList.add('proffession_card_left');
+        item.classList.add('profession_card_left');
       } else if(index === arr.length - 1) {
-        item.classList.add('proffession_card_right');
+        item.classList.add('profession_card_right');
       }
   });
 
@@ -23,8 +23,8 @@ document.querySelectorAll('.profession_item_row').forEach((item, index, arr) => 
       document.querySelectorAll('.profession_item_row').forEach(i => {
           i.classList.remove('Card');
           i.classList.remove('not-hovered');
-          i.classList.remove('proffession_card_left');
-          i.classList.remove('proffession_card_right');
+          i.classList.remove('profession_card_left');
+          i.classList.remove('profession_card_right');
           i.style.backgroundColor = getCSSVariable('--color-white');
       });
   });
@@ -33,7 +33,6 @@ document.querySelectorAll('.profession_item_row').forEach((item, index, arr) => 
 function getCSSVariable(variableName) {
   return getComputedStyle(document.documentElement).getPropertyValue(variableName).trim();
 }
-
 
 // Scroll To Top
 document.addEventListener('DOMContentLoaded', function() {

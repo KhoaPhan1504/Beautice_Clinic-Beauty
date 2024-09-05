@@ -88,7 +88,7 @@
     margin-top: 43px;
 }
 
-.contact_rowname{
+.contact_rowname  {
 	width: 520px;
     display: flex;
 	justify-content: space-between;
@@ -101,7 +101,7 @@
 }
 
 
-@media (max-width: 740px){
+@media (max-width: 740px) {
 	.contact_wrapper {
 		flex-direction: column;
 		padding-top: 20px;
@@ -109,16 +109,15 @@
 	}
 
 	.contact_mainLeft {
-			margin: 0;
+		margin: 0;
 	}
 
 	.contact_mainRight {
-			padding: 0;
+		padding: 0;
 	}
-	
 }
 
-@media (min-width: 740px) and (max-width: 1295px){
+@media (min-width: 740px) and (max-width: 1295px) {
 	.Contact {
 		width: 100%;
 		height: auto;
@@ -132,5 +131,4 @@
 	.contact_main-img {
 		margin-left: 0;
 	}
-
 }

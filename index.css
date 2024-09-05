@@ -13,11 +13,10 @@
 @import url("./Css/shares/textbox.css");
 
 /* Utils */
-/* @import url("./Css/util/animation.css"); */
 @import url("./Css/util/reponsive.css");
 
 
-:root{
+:root {
 	--color-pink : #FF64AE;
 	--color-white: #FFFFFF;
 	--color-text-default: #8B8B8B;
@@ -35,38 +34,39 @@
 
 * {
 	box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-    -webkit-user-select: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
 
 }
-body{
+
+body {
 	overflow-x: hidden;
 	display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  flex-direction: column;
+  min-height: 100vh;
 	position: relative;	
 }
-::-webkit-scrollbar {
-    width: 5px;
 
+::-webkit-scrollbar {
+  width: 5px;
 }
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: var(--color-pink);
-    border-radius: 10px;
-    
+  background: var(--color-pink);
+  border-radius: 10px; 
 }
 
-a{
+a {
 	text-decoration: none;
 	color: var(--color-text-default);
 }
 
-a:hover{
+a:hover {
 	text-decoration: none;
 }
 
@@ -80,23 +80,23 @@ textarea {
 }
 
 ul {
-    padding: 0;
-    list-style: none;
+  padding: 0;
+  list-style: none;
 }
 
-a.active{
+a.active {
 	color: var(--color-text-title) !important;
 	font-weight: 700 !important;
-   
 }
 
-a.active:hover{
+a.active:hover {
 	color: var(--color-text-hover) !important;
 }
 
 .fw-400 {
 	font-weight: 400;
 }
+
 .fw-500 {
 	font-weight: 500;
 }
@@ -129,14 +129,8 @@ a.active:hover{
 	font-size: 14px;
 }
 
-.container {
-	width: 80%;
-	padding: 10px;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-img, video {
+img, 
+video {
 	max-width: 100%;
 	height: auto;
 }
@@ -146,19 +140,21 @@ img, video {
 		width: 100%;
 		height: auto;
 	}
+
 	.Container {
 	  width: 100%;
 	  margin: 0 auto;
 	}
 }
   
- @media (max-width: 768px) {
+@media (max-width: 768px) {
 	body {
 		width: 100%;
 		height: auto;
 	}
+
 	.Container {
 		width: 100%;
-	  	margin: 0 auto;
+	  margin: 0 auto;
 	}
- }
+}

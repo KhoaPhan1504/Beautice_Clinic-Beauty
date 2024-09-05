@@ -1,11 +1,11 @@
-.Profession{
+.Profession {
 	width: 100%;
 	height: 861px;
 	margin-left: 3px;
 	transform: translateY(-356px);
 }
 
-.profession_wrapper{
+.profession_wrapper {
 	position: relative;
 	left: 50%;
 	display: flex;
@@ -16,7 +16,7 @@
 	height: 100%;
 }
 
-.title_desc_profession{
+.title_desc_profession {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -26,23 +26,24 @@
 	padding: 0px 20px;
 	animation: moveToptoBottom .5s linear;
 }
-.info_pro_tip{
+.info_pro_tip {
 	color: var(--color-pink);
 	line-height: 20px;
 	width: 160px;
 	height: 20px;
 	padding-top: 3px;
 }
-.info_pro_title{
+
+.info_pro_title {
 	width: 732px;
 	height: 53px;
 	margin: 15px 0px;
 	text-align: center;
 	line-height: 45px;
 	color: var(--color-text-title);
-
 }
-.info_pro_description{
+
+.info_pro_description {
 	width: 848px;
 	height: 51px;
 	text-align: center;
@@ -51,7 +52,7 @@
 	line-height: 24px;
 }
 
-.profession_item{
+.profession_item {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -77,15 +78,15 @@
 	opacity: 0.4;
 }
 
-.proffession_card_left {
+.profession_card_left {
 	margin-left: 33px;
 }
 
-.proffession_card_right {
+.profession_card_right {
 	margin-right: 35px;
 }
 
-.profession_item_row.Card{
+.profession_item_row.Card {
 	width: 424px;
 	height: 626px;
 	margin-top: 3px;
@@ -119,8 +120,8 @@
 
 .card_info_pro {
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+  flex-direction: column;
+  align-items: center;
 	margin-top: 54px;
 }
 
@@ -156,7 +157,7 @@
   margin-right: 4px;
 }
 
-@media (min-width: 1023px) and (max-width: 1299px){
+@media (min-width: 1023px) and (max-width: 1299px) {
 	.Profession {
 		height: auto;
 		margin: 50px 0 0 0;
@@ -180,7 +181,6 @@
 	.profession_item_wrap {
 		flex-direction: column;
 	}
-
 }
 
 @media (min-width: 768px) and (max-width: 1022px) {
@@ -208,4 +208,3 @@
 		flex-direction: column;
 	}
 }
-
