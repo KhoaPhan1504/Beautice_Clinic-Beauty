@@ -9,6 +9,7 @@
 	cursor: pointer;
 	border-radius: 50px;
 	transition: all 0.2s ease;
+	border: none;
 }
 
 .btn:hover {

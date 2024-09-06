@@ -45,6 +45,7 @@ textarea {
 	text-align: left;
 	height: 239.47px;
 	padding-top: 26px;
+	caret-color: var(--color-pink);
 }
 
 textarea:focus-visible{
@@ -55,4 +56,23 @@ textarea:focus-visible{
 	width: 248px;
 	height: 58px;
 	margin-top: 10px;
+}
+@media (max-width: 740px) {
+	.pd-l-r {
+		padding: 0 12%;
+	}
+
+	.form_btn {
+		width: 100%;
+	}
+}
+
+@media (min-width: 740px) and (max-width: 1295px) {
+	.pd-l-r {
+		padding: 0 12%;
+	}
+
+	.form_btn {
+		width: 100%;
+	}
 }
