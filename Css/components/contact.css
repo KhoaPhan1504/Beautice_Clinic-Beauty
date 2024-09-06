@@ -8,7 +8,7 @@
 	align-items: center;
 	max-width: 1440px;
 	margin: auto;
-	padding-top: 352px;
+	padding-top: 353px;
 	height: 100%;
     background-image: url("../../assets/icon_home1/Background\ BubbleLeft.png");
 	background-repeat: no-repeat;
@@ -44,7 +44,7 @@
 }
 
 .contact_main_wrapper {
-    margin-left: 53px;
+    margin-left: 50px;
     transform: translateY(-144px);
 }
 

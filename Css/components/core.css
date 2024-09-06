@@ -6,6 +6,8 @@
 	margin-top: 193px;
 	margin-left: 150px;
 	text-align: center;
+	position: relative;
+	z-index: 1;
 }
 
 .core_wrapper {

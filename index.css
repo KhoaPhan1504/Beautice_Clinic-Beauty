@@ -52,16 +52,6 @@ body {
 	position: relative;	
 }
 
-::-webkit-scrollbar {
-  width: 5px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: var(--color-pink);
-  border-radius: 10px; 
-}
-
 a {
 	text-decoration: none;
 	color: var(--color-text-default);

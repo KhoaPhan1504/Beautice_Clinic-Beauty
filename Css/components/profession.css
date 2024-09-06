@@ -6,14 +6,12 @@
 }
 
 .profession_wrapper {
-	position: relative;
-	left: 50%;
 	display: flex;
 	align-items: center;
 	flex-direction: column;	
 	max-width: 1140px;
-	transform: translateX(-50%);
 	height: 100%;
+	margin-left: 147px;
 }
 
 .title_desc_profession {
@@ -23,7 +21,7 @@
 	flex-direction: column;
 	max-width: 848px;
 	height: 148px;
-	padding: 0px 20px;
+	padding: 1px 20px;
 	animation: moveToptoBottom .5s linear;
 }
 .info_pro_tip {
@@ -50,6 +48,7 @@
 	color: var(--color-text-default);
 	letter-spacing: 1.6px;
 	line-height: 24px;
+	margin-top: 2px;
 }
 
 .profession_item {
@@ -122,7 +121,7 @@
 	display: flex;
   flex-direction: column;
   align-items: center;
-	margin-top: 54px;
+	margin-top: 56px;
 }
 
 .card_info-title {
@@ -157,7 +156,7 @@
   margin-right: 4px;
 }
 
-@media (min-width: 1023px) and (max-width: 1299px) {
+@media (max-width: 768px) {
 	.Profession {
 		height: auto;
 		margin: 50px 0 0 0;
@@ -170,6 +169,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		margin: 0;
 	}
 
 	.title_desc_profession {
@@ -180,6 +180,7 @@
 
 	.profession_item_wrap {
 		flex-direction: column;
+		gap: 30px;
 	}
 }
 
@@ -196,6 +197,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		margin: 0;
 	}
 
 	.title_desc_profession {
