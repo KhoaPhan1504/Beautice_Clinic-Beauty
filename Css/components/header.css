@@ -45,8 +45,8 @@
 
 .dot-large {
 	position: absolute;
-	top: 10px;
-  left: 11px;
+	top: 11px;
+	left: 12px;
 	width: 13px;
 	height: 13px;
 	background-color: #FFFFFF;
@@ -55,7 +55,7 @@
 
 .dot-small {
 	position: absolute;
-	top: 22px;
+	top: 23px;
   left: 25px;
 	width: 6px;
 	height: 6px;
@@ -65,7 +65,7 @@
 
 .rectangle {
 	position: absolute;
-	top: 25px;
+	top: 26px;
   left: 39px;
 	width: 40px;
 	height: 11px;
@@ -75,7 +75,7 @@
 
 .logo-text {
 	position: relative;
-	top: -10px;
+	bottom: 9px;
   left: 34px;
 	width: 161px;
 	height: 34px;
@@ -100,20 +100,35 @@
 
 .Header_menu {
 	position: absolute;
-	top: 8px;
+	top: 9px;
   left: 432px;
 	display: block;
 }
 
 .Header_menu-children {
 	display: flex;
-	gap: 9px;
 	margin: 0;
 	padding: 0;
 }
 
 .Header_menu-children li {
 	float: left;
+}
+
+._menuItem:nth-child(1) {
+	margin-right: 5px;
+}
+
+._menuItem:nth-child(2) {
+	margin-right: 9px;
+}
+
+._menuItem:nth-child(3) {
+	margin-right: 11px;
+}
+
+._menuItem:nth-child(4) {
+	margin-right: 11px;
 }
 
 .Header_menu-children a {
@@ -137,7 +152,7 @@
 
 .Header_contact {
 	position: absolute;
-	top: 20px;
+	top: 21px;
   left: 982px;
 	transform: translateY(-50%);
 }
