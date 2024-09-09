@@ -1,19 +1,19 @@
 /* Components */
-@import url('./Css/components/header.css');
-@import url("./Css/components/slider.css");
-@import url("./Css/components/core.css");
-@import url("./Css/components/about.css");
-@import url("./Css/components/profession.css");
-@import url("./Css/components/contact.css");
-@import url("./Css/components/footer.css");
+@import url("./assets/css/components/header.css");
+@import url("./assets/css/components/slider.css");
+@import url("./assets/css/components/core.css");
+@import url("./assets/css/components/about.css");
+@import url("./assets/css/components/profession.css");
+@import url("./assets/css/components/contact.css");
+@import url("./assets/css/components/footer.css");
 
 /* Shares */
-@import url("./Css/shares/button.css");
-@import url("./Css/shares/card.css");
-@import url("./Css/shares/textbox.css");
+@import url("./assets/css/shares/button.css");
+@import url("./assets/css/shares/card.css");
+@import url("./assets/css/shares/textbox.css");
 
 /* Utils */
-@import url("./Css/util/reponsive.css");
+@import url("./assets/css/util/reponsive.css");
 
 
 :root {
