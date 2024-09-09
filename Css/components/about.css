@@ -126,11 +126,6 @@
 	border-radius: 50px;
 }
 
-.about_container_right:hover {
-	transition: all 0.7s ease;
-	transform: translateY(10px);
-}
-
 @media (max-width: 740px) {
 	.About {
 		height: auto;
